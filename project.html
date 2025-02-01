@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Registration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="event-banner.jpg" alt="Event Banner" class="banner">
+        <h1>Welcome to Our Event</h1>
+        <p>Join us for an amazing experience!</p>
+        <div class="buttons">
+            <button onclick="location.href='register.html'">Register</button>
+            <button onclick="location.href='schedule.html'">Schedule</button>
+            <button onclick="location.href='contact.html'">Contact Us</button>
+        </div>
+    </div>
+</body>
+</html>
+
+<!-- styles.css -->
+<style>
+    body {
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        background: linear-gradient(to right, #ff7e5f, #feb47b);
+        padding: 50px;
+        color: #fff;
+    }
+    .container {
+        background: rgba(255, 255, 255, 0.9);
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        max-width: 500px;
+        margin: auto;
+        color: #333;
+    }
+    .banner {
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+    }
+    button {
+        margin: 10px;
+        padding: 12px 25px;
+        border: none;
+        background-color: #007BFF;
+        color: white;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 16px;
+        transition: 0.3s;
+    }
+    button:hover {
+        background-color: #0056b3;
+    }
+</style>
+
+<!-- register.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="register.jpg" alt="Register Image" class="banner">
+        <h1>Register for the Event</h1>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
+
+<!-- schedule.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Schedule</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="schedule.jpg" alt="Schedule Image" class="banner">
+        <h1>Event Schedule</h1>
+        <ul>
+            <li>10:00 AM - Opening Ceremony</li>
+            <li>12:00 PM - Keynote Speaker</li>
+            <li>03:00 PM - Networking</li>
+        </ul>
+    </div>
+</body>
+</html>
+
+<!-- contact.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="contact.jpg" alt="Contact Image" class="banner">
+        <h1>Contact Us</h1>
+        <p>Email: contact@event.com</p>
+        <p>Phone: +123 456 7890</p>
+    </div>
+</body>
+</html>
