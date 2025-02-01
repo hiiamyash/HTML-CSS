@@ -2,11 +2,13 @@
 
 
 ```
-1. git clone https://github.com/hiiamyash/HTML-CSS.git
+1. Open Kali and go to Terminal
 
-2. go to the directory where all the web content is
+2. git clone https://github.com/hiiamyash/HTML-CSS.git
 
-3. pyhton -m http.server 9999
+3. go to the directory where all the web content is
 
-4. visit the website using url http://localhost:9999/project.html
+4. pyhton -m http.server 9999
+
+5. visit the website using url http://localhost:9999/project.html
 ```
